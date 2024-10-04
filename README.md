@@ -11,5 +11,5 @@ Generate an API KEY from https://beta.openai.com/account/api-keys and paste into
 ## Optional Parameters
 Modify the prompt to fit your own needs.
 You can add optional parameters to the class object function calls: 
-* `createTextRequest("What's the best job?", 'text-davinci-003', 0.9, 300) // prompt, model, temperature, max_tokens`
+* `createTextRequest("What's the best job?", 'gpt-3.5-turbo', 0.9, 300) // prompt, model, temperature, max_tokens`
 * `generateImage("Frog on a frozen lake", '1080x1080', 2) // prompt, imageSize, numberOfImages`
